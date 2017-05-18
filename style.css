@@ -1,0 +1,74 @@
+html {
+  font-size: 10px;
+  background: url(http://hdwpro.com/wp-content/uploads/2016/09/3D-Black-Background.jpg) top center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.title {
+  color: #ffc600;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.title p {
+  color: white;
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 480px;
+  margin: 0 auto;
+  margin-top: 100px;
+
+}
+
+.key {
+  flex: 0 auto;
+  height: 140px;
+  width: 140px;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #4ECDC4 ,#556270 );
+  border: .4rem solid black;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 .5rem black;
+  transition: all .07s ease;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+footer {
+  color: white;
+  font-size: 1.4rem;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
